@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daniels</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/all.min.css"/>
+    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body data-bs-spy="scroll" data-bs-target="#navbarSupportedContent">
+    <header id="home">
+        <nav class="navbar navbar-expand-lg fixed-top">
+            <div class="container">
+              <a class="navbar-brand fw-bold text-white text-uppercase" href="#">Daniels</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <i class=" fa-3 rounded-0 fa-solid fa-bars"></i>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link text-white active position-relative" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link  text-white position-relative" href="#about">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link  text-white position-relative" href="#services">Services</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link   text-white position-relative" aria-disabled="true" href="#works">Works</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link   text-white position-relative" aria-disabled="true"href="#clients">Clients</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link   text-white position-relative" aria-disabled="true"href="#team">Team</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link   text-white position-relative" aria-disabled="true"href="#contact">Contact</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+        </nav>
+        <div class="content d-flex flex-column align-items-center justify-content-center h-100 text-white">
+            <p class="fw-bold fs-2">Hello</p>
+            <h2 class="fs-3 fw-semibold">I Am <span class="fs-2 fw-bold" id="typed-output"></span></h2>
+            <div class="social d-flex gap-4 mt-3">
+                <i class="p-2 rounded-circle fa-brands fa-facebook-f"></i>
+                <i class="p-2 rounded-circle fa-brands fa-twitter"></i>
+                <i class="p-2 rounded-circle fa-brands fa-linkedin"></i>
+                <i class="p-2 rounded-circle fa-brands fa-behance"></i>
+                <i class="p-2 rounded-circle fa-brands fa-youtube"></i>
+            </div>
+        </div>
+    </header>
+    <div class="section">
+        <div class="about bg-white pt-5 pb-5" id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="image position-relative z-1">
+                            <img class="w-100" src="./imgs/hero.jpg" alt="" />
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="text">
+                            <h2 class="fw-bold mb-0">About Me.</h2>
+                            <h3 class="text-secondary fw-normal fs-3">ui / ux designer & wep developer</h3>
+                            <p>
+                                I am <span class="text-secondary fw-bold">Jerry Daniels</span> Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                                Lorem Ipsum has been the industry's standard dummy text ever It has survived not only five centuries, 
+                                but also the leap into electronic but also the leap into electronic typesetting, remaining essentially unchanged. 
+                                It was popularised in the 1960s with the release of Letraset sheets containing
+                            </p>
+                        </div>
+                        <div class="prog">
+                            <div class="progress mt-4 rounded-2" role="progressbar" aria-label="Example 1px high" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="height: 30px">
+                                <div class="progress-bar rounded-2 align-items-center p-2 flex-row justify-content-between bg-black" style="width: 95%">Web Design<span>95%</span></div>
+                            </div>
+                            <div class="progress mt-4 rounded-2" role="progressbar" aria-label="Example 20px high" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="height: 30px">
+                                <div class="progress-bar rounded-2 align-items-center p-2 flex-row justify-content-between bg-black" style="width: 80%">Branding<span>80%</span></div>
+                            </div>
+                            <div class="progress mt-4 rounded-2" role="progressbar" aria-label="Example 20px high" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="height: 30px">
+                                <div class="progress-bar rounded-2 align-items-center p-2 flex-row justify-content-between bg-black" style="width: 90%">Development<span>90%</span></div>
+                            </div>
+                        </div>
+                        <div class="button mt-5">
+                            <div class="btn btn-dark btn-lg text-white fw-normal fs-6">Download c.v</div>
+                            <div class="btn btn-white btn-lg text-dark fw-normal fs-6">Contact Me</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="services mt-5" id="services">
+            <div class="container">
+                <h2 class="fw-bold shape text-center ">Services.</h2>
+                <div class="row mt-5 g-4">
+                    <div class="col-lg-4">
+                        <div class="box bg-white text-center p-2 rounded-2">
+                            <i class="p-3 rounded-circle mt-3 fa-solid fa-laptop"></i>
+                            <h3 class="mt-2 fw-bold fs-5">Web Design</h3>
+                            <p class="fw-normal text-secondary">Lorem Ipsum is simply dummy text of the Lorem Ipsum has been the industry's standard dummy text ever</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="box bg-white text-center p-2 rounded-2">
+                            <i class="p-3 rounded-circle mt-3 fa-solid fa-bullhorn"></i>
+                            <h3 class="mt-2 fw-bold fs-5">Branding</h3>
+                            <p class="fw-normal text-secondary">Lorem Ipsum is simply dummy text of the Lorem Ipsum has been the industry's standard dummy text ever</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="box bg-white text-center p-2 rounded-2">
+                            <i class="p-3 rounded-circle mt-3 fa-solid fa-umbrella"></i>
+                            <h3 class="mt-2 fw-bold fs-5">Development</h3>
+                            <p class="fw-normal text-secondary">Lorem Ipsum is simply dummy text of the Lorem Ipsum has been the industry's standard dummy text ever</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="box bg-white text-center p-2 rounded-2">
+                            <i class="p-3 rounded-circle mt-3 fa-solid fa-diamond"></i>
+                            <h3 class="mt-2 fw-bold fs-5">Creative Design</h3>
+                            <p class="fw-normal text-secondary">Lorem Ipsum is simply dummy text of the Lorem Ipsum has been the industry's standard dummy text ever</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="box bg-white text-center p-2 rounded-2">
+                            <i class="p-3 rounded-circle mt-3 fa-solid fa-television"></i>
+                            <h3 class="mt-2 fw-bold fs-5">Fully Responsive</h3>
+                            <p class="fw-normal text-secondary">Lorem Ipsum is simply dummy text of the Lorem Ipsum has been the industry's standard dummy text ever</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="box bg-white text-center p-2 rounded-2">
+                            <i class="p-3 rounded-circle mt-3 fa-solid fa-camera"></i>
+                            <h3 class="mt-2 fw-bold fs-5">Fully Responsive</h3>
+                            <p class="fw-normal text-secondary">Lorem Ipsum is simply dummy text of the Lorem Ipsum has been the industry's standard dummy text ever</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="works mt-5 pt-5 pb-5 bg-white" id="works">
+            <div class="container">
+                <h2 class="fw-bold shape text-center ">portfolio.</h2>
+                <ul class="nav mb-3 justify-content-center mt-5" id="pills-tab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                      <button class="nav-link active position-relative text-black fw-bold" id="pills-all-tab" data-bs-toggle="pill" data-bs-target="#pills-all" type="button" role="tab" aria-controls="pills-home" aria-selected="true">All</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                      <button class="nav-link position-relative text-black fw-bold" id="pills-brand-tab" data-bs-toggle="pill" data-bs-target="#pills-brand" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Brand</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                      <button class="nav-link position-relative text-black fw-bold" id="pills-design-tab" data-bs-toggle="pill" data-bs-target="#pills-design" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Design</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                      <button class="nav-link position-relative text-black fw-bold" id="pills-graphic-tab" data-bs-toggle="pill" data-bs-target="#pills-graphic" type="button" role="tab" aria-controls="pills-disabled" aria-selected="false">Graphic</button>
+                    </li>
+                  </ul>
+                  <div class="tab-content" id="pills-tabContent">
+                    <div class="tab-pane fade show active" id="pills-all" role="tabpanel" aria-labelledby="pills-all-tab" tabindex="0">
+                        <div class="row g-4 mt-5">
+                            <div class="col-lg-4 col-md-6">
+                                <div class="image position-relative">
+                                    <img class="w-100 " src="./imgs/portfolio/1.jpg" alt="" />
+                                    <div class="inner">
+                                        <h3 class="fw-medium text-uppercase fs-6">Web Design</h3>
+                                        <div class="icon">
+                                            <i class="rounded-circle fs-6 p-2 bg-black fa-solid fa-link"></i>
+                                            <i class="rounded-circle fs-6 p-2 bg-black fa-solid fa-magnifying-glass-plus"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4  col-md-6">
+                                <div class="image position-relative">
+                                    <img class="w-100 " src="./imgs/portfolio/2.jpg" alt="" />
+                                    <div class="inner">
+                                        <h3 class="fw-medium text-uppercase fs-6">Web Design</h3>
+                                        <div class="icon">
+                                            <i class="rounded-circle fs-6 p-2 bg-black fa-solid fa-link"></i>
+                                            <i class="rounded-circle fs-6 p-2 bg-black fa-solid fa-magnifying-glass-plus"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4  col-md-6">
+                                <div class="image position-relative">
+                                    <img class="w-100 " src="./imgs/portfolio/3.jpg" alt="" />
+                                    <div class="inner">
+                                        <h3 class="fw-medium text-uppercase fs-6">Web Design</h3>
+                                        <div class="icon">
+                                            <i class="rounded-circle fs-6 p-2 bg-black fa-solid fa-link"></i>
+                                            <i class="rounded-circle fs-6 p-2 bg-black fa-solid fa-magnifying-glass-plus"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4  col-md-6">
+                                <div class="image position-relative">
+                                    <img class="w-100 " src="./imgs/portfolio/4.jpg" alt="" />
+                                    <div class="inner">
+                                        <h3 class="fw-medium text-uppercase fs-6">Web Design</h3>
+                                        <div class="icon">
+                                            <i class="rounded-circle fs-6 p-2 bg-black fa-solid fa-link"></i>
+                                            <i class="rounded-circle fs-6 p-2 bg-black fa-solid fa-magnifying-glass-plus"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4  col-md-6">
+                                <div class="image position-relative">
+                                    <img class="w-100 " src="./imgs/portfolio/5.jpg" alt="" />
+                                    <div class="inner">
+                                        <h3 class="fw-medium text-uppercase fs-6">Web Design</h3>
+                                        <div class="icon">
+                                            <i class="rounded-circle fs-6 p-2 bg-black fa-solid fa-link"></i>
+                                            <i class="rounded-circle fs-6 p-2 bg-black fa-solid fa-magnifying-glass-plus"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4  col-md-6">
+                                <div class="image position-relative">
+                                    <img class="w-100 " src="./imgs/portfolio/6.jpg" alt="" />
+                                    <div class="inner">
+                                        <h3 class="fw-medium text-uppercase fs-6">Web Design</h3>
+                                        <div class="icon">
+                                            <i class="rounded-circle fs-6 p-2 bg-black fa-solid fa-link"></i>
+                                            <i class="rounded-circle fs-6 p-2 bg-black fa-solid fa-magnifying-glass-plus"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="pills-brand" role="tabpanel" aria-labelledby="pills-brand-tab" tabindex="0">
+                        <div class="row g-4 mt-5">
+                            <div class="col-lg-4  col-md-6">
+                                <div class="image position-relative">
+                                    <img class="w-100 " src="./imgs/portfolio/4.jpg" alt="" />
+                                    <div class="inner">
+                                        <h3 class="fw-medium text-uppercase fs-6">Web Design</h3>
+                                        <div class="icon">
+                                            <i class="rounded-circle fs-6 p-2 bg-black fa-solid fa-link"></i>
+                                            <i class="rounded-circle fs-6 p-2 bg-black fa-solid fa-magnifying-glass-plus"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4  col-md-6">
+                                <div class="image position-relative">
+                                    <img class="w-100 " src="./imgs/portfolio/6.jpg" alt="" />
+                                    <div class="inner">
+                                        <h3 class="fw-medium text-uppercase fs-6">Web Design</h3>
+                                        <div class="icon">
+                                            <i class="rounded-circle fs-6 p-2 bg-black fa-solid fa-link"></i>
+                                            <i class="rounded-circle fs-6 p-2 bg-black fa-solid fa-magnifying-glass-plus"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="pills-design" role="tabpanel" aria-labelledby="pills-design-tab" tabindex="0">
+                        <div class="row g-4 mt-5">
+                            <div class="col-lg-4  col-md-6">
+                                <div class="image position-relative">
+                                    <img class="w-100 " src="./imgs/portfolio/2.jpg" alt="" />
+                                    <div class="inner">
+                                        <h3 class="fw-medium text-uppercase fs-6">Web Design</h3>
+                                        <div class="icon">
+                                            <i class="rounded-circle fs-6 p-2 bg-black fa-solid fa-link"></i>
+                                            <i class="rounded-circle fs-6 p-2 bg-black fa-solid fa-magnifying-glass-plus"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4  col-md-6">
+                                <div class="image position-relative">
+                                    <img class="w-100 " src="./imgs/portfolio/5.jpg" alt="" />
+                                    <div class="inner">
+                                        <h3 class="fw-medium text-uppercase fs-6">Web Design</h3>
+                                        <div class="icon">
+                                            <i class="rounded-circle fs-6 p-2 bg-black fa-solid fa-link"></i>
+                                            <i class="rounded-circle fs-6 p-2 bg-black fa-solid fa-magnifying-glass-plus"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="pills-graphic" role="tabpanel" aria-labelledby="pills-graphic-tab" tabindex="0">
+                        <div class="row g-4 mt-5">
+                            <div class="col-lg-4  col-md-6">
+                                <div class="image position-relative">
+                                    <img class="w-100 " src="./imgs/portfolio/1.jpg" alt="" />
+                                    <div class="inner">
+                                        <h3 class="fw-medium text-uppercase fs-6">Web Design</h3>
+                                        <div class="icon">
+                                            <i class="rounded-circle fs-6 p-2 bg-black fa-solid fa-link"></i>
+                                            <i class="rounded-circle fs-6 p-2 bg-black fa-solid fa-magnifying-glass-plus"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4  col-md-6">
+                                <div class="image position-relative">
+                                    <img class="w-100 " src="./imgs/portfolio/3.jpg" alt="" />
+                                    <div class="inner">
+                                        <h3 class="fw-medium text-uppercase fs-6">Web Design</h3>
+                                        <div class="icon">
+                                            <i class="rounded-circle fs-6 p-2 bg-black fa-solid fa-link"></i>
+                                            <i class="rounded-circle fs-6 p-2 bg-black fa-solid fa-magnifying-glass-plus"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4  col-md-6">
+                                <div class="image position-relative">
+                                    <img class="w-100 " src="./imgs/portfolio/5.jpg" alt="" />
+                                    <div class="inner">
+                                        <h3 class="fw-medium text-uppercase fs-6">Web Design</h3>
+                                        <div class="icon">
+                                            <i class="rounded-circle fs-6 p-2 bg-black fa-solid fa-link"></i>
+                                            <i class="rounded-circle fs-6 p-2 bg-black fa-solid fa-magnifying-glass-plus"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+            </div>
+        </div>
+        <div class="clients mt-5 p-3" id="clients">
+            <h2 class="fw-bold shape text-center ">Testimonials.</h2>
+            <div id="carouselExampleIndicators" class="carousel slide">
+                <div class="carousel-indicators ">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="bg-secondary active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"  class="bg-secondary" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"  class="bg-secondary" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <div class="testi text-center mt-5">
+                        <img class="rounded-circle" src="./imgs/1_New1.jpg" alt="" />
+                        <p class="text-secondary mt-4">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Sapiente itaque atque, quia sint ipsum beatae optio, 
+                            nisi sequi quas tenetur a minima aspernatur molestias excepturi assumenda,
+                        </p>
+                        <div class="details">
+                            <h3 class="fs-6">Alex Smith</h3>
+                            <span class="text-secondary fw-normal">Envato Customer</span>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="testi text-center mt-5">
+                        <img class="rounded-circle" src="./imgs/1_New1.jpg" alt="" />
+                        <p class="text-secondary mt-4">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Sapiente itaque atque, quia sint ipsum beatae optio, 
+                            nisi sequi quas tenetur a minima aspernatur molestias excepturi assumenda,
+                        </p>
+                        <div class="details">
+                            <h3 class="fs-6">Alex Smith</h3>
+                            <span class="text-secondary fw-normal">Envato Customer</span>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="testi text-center mt-5">
+                        <img class="rounded-circle" src="./imgs/1_New1.jpg" alt="" />
+                        <p class="text-secondary mt-4">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Sapiente itaque atque, quia sint ipsum beatae optio, 
+                            nisi sequi quas tenetur a minima aspernatur molestias excepturi assumenda,
+                        </p>
+                        <div class="details">
+                            <h3 class="fs-6">Alex Smith</h3>
+                            <span class="text-secondary fw-normal">Envato Customer</span>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+        <div class="result mt-5 pt-5 pb-5 bg-white">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6">
+                        <div class="box d-flex flex-column align-items-center">
+                            <i class="fs-2 fa-solid fa-users"></i>
+                            <span class="mt-3 fs-2 fw-bolder">850</span>
+                            <h3 class="fs-5 mt-3 text-black-50">Happy Customers</h3>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="box d-flex flex-column align-items-center">
+                            <i class="fs-2 fa-solid fa-thumbs-up"></i>
+                            <span class="mt-3 fs-2 fw-bolder">230</span>
+                            <h3 class="fs-5 mt-3 text-black-50">Complete Projects</h3>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="box d-flex flex-column align-items-center">
+                            <i class="fs-2 fa-solid fa-bullhorn"></i>
+                            <span class="mt-3 fs-2 fw-bolder">9450</span>
+                            <h3 class="fs-5 mt-3 text-black-50">Lines Of Code</h3>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="box d-flex flex-column align-items-center">
+                            <i class="fs-2 fa-solid fa-cloud-download"></i>
+                            <span class="mt-3 fs-2 fw-bolder">780</span>
+                            <h3 class="fs-5 mt-3 text-black-50">Files Downloaded</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="team mt-5" id="team">
+            <div class="container">
+                <h2 class="fw-bold shape text-center ">Our Team.</h2>
+                <div class="row mt-5 g-3">
+                    <div class="col-lg-4 col-md-6">
+                        <div class="card">
+                            <div class="image position-relative">
+                                <img src="./imgs/1.jpg" class="card-img-top" alt="...">
+                                <div class="inner">
+                                    <i class="rounded-circle p-2 text-white bg-black fa-brands fa-facebook-f"></i>
+                                    <i class="rounded-circle p-2 text-white bg-black fa-brands fa-twitter"></i>
+                                    <i class="rounded-circle p-2 text-white bg-black fa-brands fa-pinterest"></i>
+                                    <i class="rounded-circle p-2 text-white bg-black fa-brands fa-linkedin"></i>
+                                </div>
+                            </div>
+                            <div class="card-body bg-secondary text-center ">
+                              <h2 class="card-title text-white mt-2">John Doe</h2>
+                              <p class="card-text text-uppercase fw-bold text-white">Front-end developer</p>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="card">
+                            <div class="image position-relative">
+                                <img src="./imgs/2.jpg" class="card-img-top" alt="...">
+                                <div class="inner">
+                                    <i class="rounded-circle p-2 text-white bg-black fa-brands fa-facebook-f"></i>
+                                    <i class="rounded-circle p-2 text-white bg-black fa-brands fa-twitter"></i>
+                                    <i class="rounded-circle p-2 text-white bg-black fa-brands fa-pinterest"></i>
+                                    <i class="rounded-circle p-2 text-white bg-black fa-brands fa-linkedin"></i>
+                                </div>
+                            </div>
+                            <div class="card-body bg-secondary text-center ">
+                              <h2 class="card-title text-white mt-2">Dave Wood</h2>
+                              <p class="card-text text-uppercase fw-bold text-white">Back-end developer</p>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="card">
+                            <div class="image position-relative">
+                                <img src="./imgs/1.jpg" class="card-img-top" alt="...">
+                                <div class="inner">
+                                    <i class="rounded-circle p-2 text-white bg-black fa-brands fa-facebook-f"></i>
+                                    <i class="rounded-circle p-2 text-white bg-black fa-brands fa-twitter"></i>
+                                    <i class="rounded-circle p-2 text-white bg-black fa-brands fa-pinterest"></i>
+                                    <i class="rounded-circle p-2 text-white bg-black fa-brands fa-linkedin"></i>
+                                </div>
+                            </div>
+                            <div class="card-body bg-secondary text-center ">
+                              <h2 class="card-title text-white mt-2">John Doe</h2>
+                              <p class="card-text text-uppercase fw-bold text-white">Back-end developer</p>
+                            </div>
+                          </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="contact mt-5 pt-5 pb-5 bg-white" id="contact">
+            <div class="container">
+                <h2 class="fw-bold shape text-center ">Contact Us.</h2>
+                <div class="row mt-5">
+                    <div class="col-lg-4">
+                        <div class="box text-center">
+                            <i class="rounded-circle p-2 fa-solid fa-location-arrow"></i>
+                            <h3 class="mt-2 fs-6 fw-bold">Address</h3>
+                            <p class="text-black-50 mt-2">6834 Hollywood Blvd - Los Angeles CA</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="box text-center">
+                            <i class="rounded-circle p-2 fa-solid fa-envelope"></i>
+                            <h3 class="mt-2 fs-6 fw-bold">Email</h3>
+                            <p class="text-black-50 mt-2">Support@website.com</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="box text-center">
+                            <i class="rounded-circle p-2 fa fa-phone" aria-hidden="true"></i>
+                            <h3 class="mt-2 fs-6 fw-bold">Phone</h3>
+                            <p class="text-black-50 mt-2">+20 010 2517 8918</p>
+                        </div>
+                    </div>
+                </div>
+                <form action="" class="mt-5 d-flex flex-column justify-content-center align-items-center">
+                    <div class="one d-flex w-100 gap-2 align-items-center">
+                        <input class="rounded-2" type="text" placeholder="Name"/>
+                        <input class="rounded-2" type="email" placeholder="Email" />
+                    </div>
+                    <textarea class="rounded-2 w-100 mt-3" type="text" placeholder="Massege"></textarea>
+                    <button class="btn btn-lg text-white bg-black me-auto mt-3 rounded-1 fw-normal fs-6 px-5" type="submit">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <footer class="">
+        <p class="text-center pt-4 pb-4 mb-0 text-secondary">Copy Right 2018 &copy; By Daniels All Rights Reserved</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/all.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
